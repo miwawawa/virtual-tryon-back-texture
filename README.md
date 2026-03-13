@@ -72,9 +72,13 @@ pip install . --no-build-isolation
 ```
 
 ### 1.2.4. Download Pre-trained model
-Run the following script to download the pretrained model. The checkpoint is saved under ./checkpoints/.
+Download the pretrained model from Google Drive:
 ```bash
-sh ./scripts/download_trained_model.sh
+https://drive.google.com/file/d/1qRaBAnXTGJo_2i2tDctoYjkOJCnsfJwS/view?usp=drive_link
+```
+Place the file in:
+```bash
+checkpoints/epoch_all_210_1.pth
 ```
 ### 1.2.5. Dataset
 
@@ -216,6 +220,7 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
 
