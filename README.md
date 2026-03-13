@@ -137,7 +137,7 @@ The left image shows the front-view image, while the right image shows the color
 To train the backside texture prediction model, run:
 
 ```bash
-python train.py
+python main.py
 ```
 ### 1.3.3. Predict Backside Texture
 
