@@ -8,7 +8,7 @@ This project consists of two main components:
 - **1: Backside Texture Prediction**  
    Generating a colored 3D human model, including the unseen backside, from a single front-view image and a colorless 3D human mesh.
 
-- **2: 3D Background Augmentation**  
+- **2: 3D Background Rendering**  
    Placing the generated 3D human model into a natural 3D environment to create realistic scenes.
 ## **1. Backside Texture Prediction**  
 ## 1.1: Preprocessing
@@ -147,7 +147,7 @@ The following examples show a 3D human model with predicted backside textures ge
 ![result](images/Rclady.png)
 
 
-## **2: 3D Background Augmentation**  
+## **2: 3D Background Rendering**  
 
 ## 2.1: Requirements
 
@@ -216,6 +216,7 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
 
