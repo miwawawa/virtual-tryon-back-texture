@@ -23,6 +23,11 @@ We use the implementation provided by:
 lindevs,  
 "YOLOv8-Face: Pre-trained YOLOv8 Face Detection Models,"  
 GitHub repository.  
+
+```bash
+Model Name: yolov8n-face-lindevs.onnx
+```
+
 Available: https://github.com/lindevs/yolov8-face
 
 For easy reproduction, a Google Colab notebook is provided below:
