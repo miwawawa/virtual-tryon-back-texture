@@ -104,7 +104,9 @@ https://drive.google.com/file/d/1qRaBAnXTGJo_2i2tDctoYjkOJCnsfJwS/view?usp=drive
 ```
 Place the file in:
 ```bash
-checkpoints/epoch_all_210_1.pth
+virtual-tryon-back-texture/
+└── checkpoints/         # Training code
+    └── epoch_all_210_1.pth
 ```
 ### 1.2.5. Dataset
 
@@ -136,14 +138,16 @@ Example:
 ```
 After preparing the face coordinates, organize the dataset as follows:
 ```bash
-data/
-└── THuman3.0/
-    └── 00001_0003/
-        ├── 00001_0003.png # input image
-        ├── mesh.obj # 3D human mesh
-        ├── tex.png # ground-truth texture
-        ├── tex.mtl # material file
-        └── extracted_face.txt # face bounding box coordinates
+virtual-tryon-back-texture/
+└── train/         # Training code
+    └── THuman3.0/
+        └── 00001_0003/
+            ├── 00001_0003.png # input image
+            ├── mesh.obj # 3D human mesh
+            ├── tex.png # ground-truth texture
+            ├── tex.mtl # material file
+            ├── bbox.txt # face bounding box coordinates
+            └── cloth_mask.png # cloth mask file
 ```
 
 Each directory corresponds to one human model from the THuman3.0 dataset.
@@ -200,9 +204,10 @@ This EXR file is used as the 3D background environment for rendering.
 
 Place the downloaded file in:
 ```text
-assets/
-└── hdri/
-    └── rathaus.exr
+virtual-tryon-back-texture/
+└── render/
+    └── hdri/
+        └── rathaus.exr
 ```
 ## 2.2: Usage
 
