@@ -1,0 +1,10 @@
+Before inference, the facial region is detected using YOLOv8.
+
+To simplify the environment setup and ensure reproducibility,
+a Google Colab notebook is provided for this preprocessing step.
+
+Google Colab:
+
+```bash
+https://drive.google.com/file/d/1s5xvsvHcZxj0jaSfB_vXWZMUuD6ZBnP_/view?usp=drive_link
+```
