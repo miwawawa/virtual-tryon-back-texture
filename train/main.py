@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # encoder,
     # tex_predictor,
     # optimizer,
-    # resume_path="checkpoints/epoch_all_375_1.pth"
+    # resume_path="/virtual-tryon-back-texture/checkpoints/epoch_all_210_1.pth"
     # )
 
     with open("loss_log.txt", "w") as f:
