@@ -202,19 +202,19 @@ This project is released under the MIT License.
 
 This project uses the following resources:
 
-- **THuman3.0 Dataset**  
-  Z. Su et al., "THuman3.0 Dataset", 2022.
-  https://github.com/fwbx529/THuman3.0-Dataset
+- **[THuman3.0 Dataset](https://github.com/fwbx529/THuman3.0-Dataset)**  (by Z. Su et al)
+  
+- **[YOLOv8 Face Detection](https://github.com/lindevs/yolov8-face)**  
 
-- **YOLOv8 Face Detection**  
-  https://github.com/lindevs/yolov8-face
+- **[Poly Haven HDRI – Rathaus](https://polyhaven.com/a/rathaus)** (by G. Zaal)
 
-- **Poly Haven HDRI Assets**  
-  G. Zaal, "Rathaus", https://polyhaven.com/a/rathaus
+- **[Humano3D – Posed New Free Model](https://humano3d.com/product/posed-new-free-models/?attribute_choose-file-format=Other+Software+%28Obj%2BFbx%29)** 
+
 
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
 
