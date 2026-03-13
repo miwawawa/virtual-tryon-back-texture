@@ -1,4 +1,4 @@
-# Backside Texture Prediction and 360-Degree Background Augmentation for 3D Virtual Try-On
+# Backside Texture Prediction and 360-Degree Background Rendering for 3D Virtual Try-On
 
 ![result](images/img3.png)
 ![result](images/BLlady.png)
@@ -216,6 +216,7 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
 
