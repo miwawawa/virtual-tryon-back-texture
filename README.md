@@ -122,6 +122,7 @@ Reference example of input data (not from the THuman3.0 dataset).
 
 ![result](images/Humano_Posed_2607-000-Man_01_LOD0_Main_0001.jpg)
 ![result](images/humano_3D.png)
+
 The left image shows the front-view image, while the right image shows the colorless 3D human model.
 ### 1.3.2. Train the Model
 
@@ -213,4 +214,5 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
