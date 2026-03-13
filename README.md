@@ -1,7 +1,7 @@
 # Backside Texture Prediction and 360-Degree Background Augmentation for 3D Virtual Try-On
 
-![result](img3.png)
-![result](Rblady.png)
+![result](images/img3.png)
+![result](images/Rblady.png)
 ## Overview
 This project consists of two main components:
 
@@ -120,8 +120,8 @@ Each directory corresponds to one human model from the THuman3.0 dataset.
 
 Reference example of input data (not from the THuman3.0 dataset).
 
-![result](Humano_Posed_2607-000-Man_01_LOD0_Main_0001.jpg)
-![result](humano_3D.png)
+![result](images/Humano_Posed_2607-000-Man_01_LOD0_Main_0001.jpg)
+![result](images/humano_3D.png)
 The left image shows the front-view image, while the right image shows the colorless 3D human model.
 ### 1.3.2. Train the Model
 
@@ -139,10 +139,10 @@ python predict_uv.py
 ```
 ## 1.4: Results
 The following examples show a 3D human model with predicted backside textures generated from a single front-view image and a colorless 3D human mesh.
-![result](Rman.png)
-![result](Rlady.png)
-![result](Rblady.png)
-![result](Rclady.png)
+![result](images/Rman.png)
+![result](images/Rlady.png)
+![result](images/Rblady.png)
+![result](images/Rclady.png)
 
 
 ## **2: 3D Background Augmentation**  
@@ -185,8 +185,8 @@ blender -b --python scene_composition.py
 ```
 ## 2.3: Results
 The following images show the output results obtained by combining the colored 3D human model with a 3D background.
-![result](img1.png)
-![result](Blady.png)
+![result](images/img1.png)
+![result](images/Blady.png)
 
 ## Citation
 
