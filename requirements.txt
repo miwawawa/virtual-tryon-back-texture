@@ -1,0 +1,15 @@
+# Main Frameworks
+torch==2.0.1
+torchvision==0.15.2
+
+# Image & Data Processing
+Pillow==10.0.0
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.0
+
+# Dependencies for PyTorch3D/System
+ninja
+fvcore
+iopath
