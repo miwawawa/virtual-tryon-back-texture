@@ -143,6 +143,7 @@ The following examples show a 3D human model with predicted backside textures ge
 
 ![result](images/Rman.png)
 ![result](images/Rlady.png)
+
 ![result](images/Rblady.png)
 ![result](images/Rclady.png)
 
@@ -215,6 +216,7 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
 
