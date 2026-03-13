@@ -140,6 +140,7 @@ python predict_uv.py
 ```
 ## 1.4: Results
 The following examples show a 3D human model with predicted backside textures generated from a single front-view image and a colorless 3D human mesh.
+
 ![result](images/Rman.png)
 ![result](images/Rlady.png)
 ![result](images/Rblady.png)
@@ -214,5 +215,6 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
