@@ -11,8 +11,8 @@ if __name__ == "__main__":
     front_img_path = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/00001_0003.png"
     obj_path       = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/mesh.obj"
     bbox_path      = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/bbox.txt"
-    model_path     = "/virtual-tryon-back-texture/model/model_latest_200epochs_18dataset_face_cloth_loss_except39.pth"
-    save_path      = "tex_pred_5.png"
+    model_path     = "/virtual-tryon-back-texture/checpoints/epoch_all_210_1.pth"
+    save_path      = "tex_pred.png"
 
 
     if os.path.exists(bbox_path):
