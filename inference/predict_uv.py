@@ -12,7 +12,7 @@ if __name__ == "__main__":
     obj_path       = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/mesh.obj"
     bbox_path      = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/bbox.txt"
     model_path     = "/virtual-tryon-back-texture/checpoints/epoch_all_210_1.pth"
-    save_path      = "tex_pred.png"
+    save_path      = "./output/tex_pred.png"
 
 
     if os.path.exists(bbox_path):
