@@ -105,7 +105,7 @@ https://drive.google.com/file/d/1qRaBAnXTGJo_2i2tDctoYjkOJCnsfJwS/view?usp=drive
 Place the file in:
 ```bash
 virtual-tryon-back-texture/
-└── checkpoints/         # Training code
+└── checkpoints/         
     └── epoch_all_210_1.pth
 ```
 ### 1.2.5. Dataset
@@ -139,7 +139,7 @@ Example:
 After preparing the face coordinates, organize the dataset as follows:
 ```bash
 virtual-tryon-back-texture/
-└── train/         # Training code
+└── train/         
     └── THuman3.0/
         └── 00001_0003/
             ├── 00001_0003.png # input image
