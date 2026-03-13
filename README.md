@@ -196,7 +196,9 @@ If you use this code in your research, please cite this repository.
 
 ## License
 
-This project is released under the MIT License.
+The code in this repository is released under the MIT License.
+
+Note that datasets and assets used in this project are not included in this repository and are subject to their respective licenses.
 
 ## Acknowledgements
 
@@ -214,6 +216,7 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
 
