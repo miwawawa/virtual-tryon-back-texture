@@ -2,9 +2,9 @@ import bpy
 import math
 import numpy as np
 
-OBJ_PATH = r"C:\Users\shibe\Cpro\03\mesh.obj"
-HDRI_PATH = r"C:\Users\shibe\Cpro\03\river_alcove_4k.exr"
-OUT_PATH = r"C:\Users\shibe\Cpro\03\render_cycles_shadowcatcher_fixed.png"
+OBJ_PATH = "/virtual-tryon-back-texture/train/THuman3.0/ 00001_0003/mesh.obj"
+HDRI_PATH = "./hdri/rathaus.exr"
+OUT_PATH = "./output/rendering_result.blend"
 
 
 bpy.ops.wm.read_factory_settings(use_empty=True)
