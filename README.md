@@ -32,7 +32,7 @@ virtual-tryon-back-texture/
 ## 1.1: Preprocessing
 Before training or inference, input images must be preprocessed.
 
-### 1.1.1. Face Detection
+### Face Detection
 
 Face regions are detected using a pre-trained YOLOv8 model.
 
@@ -52,9 +52,6 @@ For easy reproduction, a Google Colab notebook is provided below:
 ```bash
 https://colab.research.google.com/drive/1YDMsKNCzHhxE_xUKb9wiLWqPEnrzLfYd?usp=drive_link
 ```
-###  1.1.2. Cloth Detection
-To generate natural clothing regions on the back side, a mask containing only the clothing area is used.  
-This part is currently under preparation.
 
 ## 1.2: Requirements
 
@@ -159,17 +156,22 @@ Reference example of input data (not from the THuman3.0 dataset).
 
 The left image shows the front-view image, while the right image shows the colorless 3D human model.
 ### 1.3.2. Train the Model
+Note:  
+To generate natural clothing regions on the back side, a mask containing only the clothing area is used.  
+The code for this part is currently under preparation.
 
-To train the backside texture prediction model, run:
+To train the backside texture prediction model, run the following command from the project root:
 
 ```bash
+cd train/THuman3.0
 python main.py
 ```
 ### 1.3.3. Predict Backside Texture
 
-To generate the backside texture from a front-view image, run:
+To generate the backside texture from a front-view image, run the following command from the project root:
 
 ```bash
+cd inference
 python predict_uv.py
 ```
 ## 1.4: Results
@@ -212,12 +214,13 @@ virtual-tryon-back-texture/
 ## 2.2: Usage
 
 ### 2.2.1. Prepare Input Data
-This stage uses the colored 3D human model generated in **Stage 1** and the downloaded **EXR file** as inputs.  
+This stage uses the colored 3D human model generated in **Backside Texture Prediction** and the downloaded **EXR file** as inputs.  
 No changes to the file locations are required.
 ### 2.2.2. Scene Composition
-To generate the composed 3D scene, run:
+To generate the composed 3D scene, run the following command from the project root:
 
 ```bash
+cd render
 blender -b --python scene_composition.py
 ```
 ## 2.3: Results
