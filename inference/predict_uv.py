@@ -8,16 +8,10 @@ from infer_uv_texture import infer_uv_texture
 if __name__ == "__main__":
     
     # input
-    '''front_img_path = "./dataset/00001_1/00001_0003/00001_0003.png"
-    obj_path       = "./dataset/00001_1/00001_0003/mesh.obj"
-    bbox_path      = "./dataset/00001_1/00001_0003/bbox.txt"
-    model_path     = "./checkpoints/model_latest_200epochs_18dataset_face_cloth_loss_except39.pth"
-    save_path      = "tex_pred_5.png"'''
-
-    front_img_path = "./00005_0018/00005_0018.png"
-    obj_path       = "./00005_0018/mesh.obj"
-    bbox_path      = "./00005_0018/bbox.txt"
-    model_path     = "./checkpoints/model_latest_200epochs_18dataset_face_cloth_loss_except39.pth"
+    front_img_path = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/00001_0003.png"
+    obj_path       = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/mesh.obj"
+    bbox_path      = "/virtual-tryon-back-texture/train/dataset/THuman3.0/00001_1/00001_0003/bbox.txt"
+    model_path     = "/virtual-tryon-back-texture/model/model_latest_200epochs_18dataset_face_cloth_loss_except39.pth"
     save_path      = "tex_pred_5.png"
 
 
