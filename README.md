@@ -10,6 +10,24 @@ This project consists of two main components:
 
 - **2: 3D Background Rendering**  
    Placing the generated 3D human model into a natural 3D environment to create realistic scenes.
+
+## Repository Structure
+The following is the repository structure for this research.
+```bash
+virtual-tryon-back-texture/
+
+├── inference/     # Texture inference
+│   └── predict_uv.py
+│
+├── render/        # Blender rendering
+│   └── scene_composition.py
+│
+└── train/         # Training code
+    ├── main.py
+    └── train.py
+
+```
+
 ## **1. Backside Texture Prediction**  
 ## 1.1: Preprocessing
 Before training or inference, input images must be preprocessed.
