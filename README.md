@@ -25,10 +25,9 @@ lindevs,
 GitHub repository.  
 Available: https://github.com/lindevs/yolov8-face
 
-Example preprocessing script:
-
+For easy reproduction, a Google Colab notebook is provided below:
 ```bash
-python extract_face.py
+https://drive.google.com/file/d/1s5xvsvHcZxj0jaSfB_vXWZMUuD6ZBnP_/view?usp=drive_link
 ```
 ## 1.2: Requirements
 
@@ -220,6 +219,7 @@ This project uses the following resources:
 ## Contact
 
 If you have any questions, please feel free to open an issue.
+
 
 
 
