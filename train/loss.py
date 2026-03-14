@@ -21,11 +21,6 @@ def texture_l1_loss(tex_pred, tex_gt, valid_mask, face_uv_mask, cloth_uv_mask, f
         (tex_pred - tex_gt).abs()
         * back_mask
     ).sum() / denom_back
-    
-    # Create a mask for the left body region in world coordinates
-    left_body_mask = (pts_world[..., 0:1] < 0).float()
-    left_body_mask = left_body_mask.permute(0,3,1,2)
-    left_body_mask = left_body_mask * valid_mask
 
     # Assign higher weights to colored regions in the ground-truth texture
     with torch.no_grad():
