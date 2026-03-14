@@ -77,9 +77,11 @@ https://colab.research.google.com/drive/1YDMsKNCzHhxE_xUKb9wiLWqPEnrzLfYd?usp=dr
 - **fvcore**
 - **iopath**
 ### 1.2.3. Build Dependencies
-To run this project, you need the following libraries. You can install them using `pip`:
+To run this project, you need the following environment and libraries. You can install them using `pip`:
 
 ```bash
+conda create -n pyt3d python=3.10
+conda activate pyt3d
 pip install -r requirements.txt
 ```
 
