@@ -17,14 +17,17 @@ The following is the repository structure for this research.
 virtual-tryon-back-texture/
 
 ├── inference/     # Texture inference
-│   └── predict_uv.py
+│   ├── predict_uv.py
+│   └── ...
 │
 ├── render/        # Blender rendering
-│   └── scene_composition.py
+│   ├── scene_composition.py   
+│   └── ...
 │
 └── train/         # Training code
     ├── main.py
-    └── train.py
+    ├── train.py
+    └── ...
 
 ```
 
