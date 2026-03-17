@@ -247,10 +247,6 @@ Note that datasets and assets used in this project are not included in this repo
 
 - **Name**: Hiroyoshi Tsujimoto
 
-## Project Context
-- このプロジェクトは、[研究タイトルや授業名] の一環として作成されました。
-- 役割: [個人開発 / チームリーダー / アルゴリズム設計担当など]
-
 ## Acknowledgements
 
 This project uses the following resources:
