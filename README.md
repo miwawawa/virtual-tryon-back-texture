@@ -243,6 +243,14 @@ The code in this repository is released under the MIT License.
 
 Note that datasets and assets used in this project are not included in this repository and are subject to their respective licenses.
 
+## Author
+
+- **Name**: Hiroyoshi Tsujimoto
+
+## Project Context
+- このプロジェクトは、[研究タイトルや授業名] の一環として作成されました。
+- 役割: [個人開発 / チームリーダー / アルゴリズム設計担当など]
+
 ## Acknowledgements
 
 This project uses the following resources:
